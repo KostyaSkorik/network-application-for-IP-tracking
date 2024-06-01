@@ -47,6 +47,13 @@
         android:layout_below="@id/password"
         android:layout_centerHorizontal="true"
         android:text="@string/log_in"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/developer_name"
+        android:gravity="center_horizontal"/>
 
 
 
