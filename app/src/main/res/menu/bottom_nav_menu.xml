@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_ip_info"
+        android:icon="@drawable/ic_launch_wifi"
+        android:title="@string/ip_info"/>
+    <item
+        android:id="@+id/navigation_geo"
+        android:icon="@drawable/ic_laucnher_location"
+        android:title="@string/location"/>
+</menu>

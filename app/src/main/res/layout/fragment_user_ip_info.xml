@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserIpInfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/userIpInfo"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_ip"
+        android:textSize="32sp"
+        android:layout_marginTop="50dp" />
+    <Button
+        android:id="@+id/btnStartShowIpInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userIpInfo"
+        android:text="@string/enter"/>
+    <LinearLayout
+        android:id="@+id/countryLinerLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/btnStartShowIpInfo"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp">
+        <TextView
+            android:id="@+id/Country2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:singleLine="true"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/counrtyFlag2"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cityInfo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/loading"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/countryLinerLayout2"/>
+    <TextView
+        android:id="@+id/Coordinates2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:layout_below="@id/cityInfo2"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/moreInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:paddingTop="20dp"
+        android:layout_below="@id/Coordinates2"/>
+
+
+</RelativeLayout>
